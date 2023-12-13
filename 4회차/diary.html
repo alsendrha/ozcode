@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>다이어리 만들기</title>
+    <style>
+        * {
+            text-align: center;
+        }
+
+        html {
+            background-color: #b1fcbf;
+        }
+
+        body {
+            width: 640px;
+            margin: auto;
+        }
+
+        header {
+            margin-top: 30px;
+            border: 2px double red;
+        }
+
+        .sesction {
+            margin-top: 30px;
+            border: 2px double red;
+        }
+
+        .sesction p {
+            padding-right: 20px;
+            text-align: end;
+        }
+
+        .my_image {
+            margin-top: 30px;
+            padding: 20px;
+            border: 2px double red;
+        }
+
+        .my_image img {
+            width: 400px;
+        }
+
+        .my_text {
+            margin-top: 30px;
+            border: 2px double red;
+        }
+
+        .my_text p {
+            color: #1e4124;
+        }
+
+        .text_one {
+            font-weight: 900;
+            color: red;
+        }
+
+        .text_two {
+            font-weight: 900;
+            color: #CF806F;
+        }
+
+        .text_three {
+            font-weight: 900;
+            color: #A6AE28;
+        }
+
+        .my_text p.text_four {
+            font-weight: 900;
+            color: #6F2E20
+        }
+
+        .text_five {
+            font-weight: 900;
+            color: #288EAE;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>나의 다이어리</h1>
+    </header>
+    <main>
+        <section class="sesction">
+            <p>2023년 &nbsp;&nbsp;12월 &nbsp;&nbsp;12일 &nbsp;&nbsp;화요일</p>
+            <p>감정상태 &nbsp;&nbsp; &#128077; &nbsp;&nbsp; <input type="range"> &nbsp;&nbsp; &#128078;</p>
+        </section>
+        <section class="my_image">
+            <img src="images/diary_image.jpg">
+        </section>
+        <section class="my_text">
+            <div>
+                <p>오늘은 맛있는 <span class="text_one">마라탕</span>을 먹었다</p>
+                <p><span class="text_two">마장소스</span>를 많이 넣어 먹으니 맛있었다</p>
+                <p>마라탕 <span class="text_three">건더기</span>도 많고 국물도 많다</p>
+                <p class="text_four">마라탕은 못참지!</p>
+                <p>다음엔 <span class="text_five">친구들</span>>과 함께 가봐야겠다</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span>&copy; 민영</span>
+    </footer>
+</body>
+
+</html>

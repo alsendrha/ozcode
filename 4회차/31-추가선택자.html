@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>선택자 더 알아보기</title>
+  <style>
+    /* 기호와 함께 사용하는 속성 선택자
+        * : 깂의 표함 여부
+        ^ : 값의 시작 여부
+        $ : 값의 끝 여부
+        */
+    [width $="0"] {
+      border: 5px dashed red;
+    }
+
+    p>em {
+      color: blue;
+    }
+
+    /* 형제 선택자는 뒤에있는 놈들만 적용된다 */
+    #sam~p {
+      color: orange;
+    }
+  </style>
+</head>
+
+<body>
+  <img src="images/09image.jpg" width="120" alt="대전">
+  <img src="images/09image.jpg" width="120">
+  <img src="images/09image.jpg" width="120" id="sam">
+  <p class="daa">서울은 민영의 고향이자, 현 거주지이기도 합니다.</p>
+  <p>서울 서대문구에는 민영의 집이 있습니다.</p>
+  <p>민영의 <em>집은</em> 정말 좁고 비쌉니다.</p>
+  <p>민영은 서울에 살기위해 발버둥을 치는데 힘이듭니다.</p>
+</body>
+
+</html>

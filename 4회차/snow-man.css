@@ -1,0 +1,116 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1 {
+    position: relative;
+    top: 5px;
+    width: 45px;
+    height: 45px;
+    background-color: black;
+    z-index: 3;
+}
+
+.div2 {
+    position: relative;
+    top: 5px;
+    width: 75px;
+    height: 10px;
+    background-color: black;
+    z-index: 2;
+}
+
+.div3 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: white;
+    z-index: 1;
+}
+
+.eyes {
+    display: flex;
+    justify-content: center;
+}
+
+.eye {
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+    margin-right: 7px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.mouth {
+    position: relative;
+    bottom: 35px;
+    left: 20px;
+    width: 20px;
+    height: 10px;
+    border-radius: 0 0 6px 6px;
+    background-color: black;
+}
+
+.div4 {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: white;
+    z-index: 2;
+}
+
+.div4_1_1 {
+    position: relative;
+    width: 7px;
+    height: 7px;
+    left: 32px;
+    top: 25px;
+    margin-bottom: 7px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+
+.div5 {
+    position: relative;
+    left: auto;
+    right: 50px;
+    bottom: 90px;
+    transform: rotate(110deg);
+    width: 6px;
+    height: 60px;
+    background-color: brown;
+    z-index: 1;
+
+}
+
+.div6 {
+    position: relative;
+    left: 50px;
+    right: auto;
+    bottom: 150px;
+    transform: rotate(70deg);
+    width: 6px;
+    height: 60px;
+    background-color: brown;
+    z-index: 1;
+
+}
+
+.div7 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    bottom: 120px;
+    border-radius: 100px;
+    background-color: white;
+
+}
