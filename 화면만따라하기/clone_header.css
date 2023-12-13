@@ -1,6 +1,4 @@
 header.header {
-    position: fixed;
-    top: 0;
     width: 100%;
     z-index: 999;
     background-color: #FFFFFF;
@@ -10,22 +8,19 @@ header.header {
 .header-content {
     width: 100%;
     height: 4rem;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 3rem;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-content__logo {
-    color: #464646;
-    letter-spacing: 2px;
-    font-size: 2rem;
-    font-weight: 900;
-    height: 1em;
+.header-content img {
+    width: 7rem;
+    height: auto;
 }
 
 .header-content__nav {
     align-items: center;
-    padding: 0 2.5rem 0 0;
+    padding: 0 2.5rem 0.5rem 1rem;
     flex-grow: 1;
 }
 
@@ -51,7 +46,7 @@ header.header {
 .header-content__nav ul li {
     display: inline-block;
     margin-right: 30px;
-    font-size: 1.13rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -69,27 +64,31 @@ header.header {
 }
 
 .header-content__input .icon {
-    /* display: none; */
+    margin-right: 1rem;
 }
 
-@media screen and (max-width: 1200px) {
+.header-content__input .menu {
+    display: none;
+}
 
-    .header-content {
-        width: 100%;
-        height: 4rem;
-        max-width: 75rem;
-        margin: auto;
-        padding: 0.75rem 1rem;
-        justify-content: space-between;
-        align-items: center;
-    }
+@media screen and (max-width: 1270px) {
 
     .header-content__nav {
         display: none;
     }
 
+    .header-content__input .menu {
+        display: block;
+    }
+
     .header-content__input .glass {
         display: block;
+        margin-right: 0;
+    }
+
+    .header-content__input .cart {
+        display: block;
+        margin-right: 0;
     }
 
     .header-content__input .people {
@@ -98,6 +97,14 @@ header.header {
 }
 
 @media screen and (max-width: 948px) {
+
+    .header-content {
+        width: 100%;
+        height: 4rem;
+        padding: 0.75rem 0.5rem;
+        justify-content: space-between;
+        align-items: center;
+    }
 
     .header-content__input .chat,
     .header-content__nav {

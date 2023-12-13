@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Gothic+Coding&family=Nanum+Pen+Script&family=Noto+Sans+KR:&display=swap"
+        rel="stylesheet">
+    <link href="clone_header.css" rel="stylesheet">
+    <link href="slide.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <title>화면만 따라해보기</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Nanum Gothic', sans-serif;
+            font-family: 'Nanum Gothic Coding', monospace;
+            font-family: 'Nanum Pen Script', cursive;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        .flex {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content flex">
+                <img src="images/lg_logo_new.svg" alt="엘지 로고">
+                <div class="header-content__input flex">
+                    <span class="icon glass">
+                        <input type="button" value="&#128269;">
+                    </span>
+                    <span class="icon people">
+                        <input type="button" value="&#128100;">
+                    </span>
+                    <span class="icon cart">
+                        <input type="button" value="&#128722;">
+                    </span>
+                    <nav class="header-content__nav flex">
+                        <ul>
+                            <li>|</li>
+                            <li>회사소개</li>
+                            <li>|</li>
+                            <li>B2B</li>
+                        </ul>
+                    </nav>
+                    <span class="icon menu">
+                        <input type="button" value="&#9776;">
+                    </span>
+                </div>
+            </div>
+            <nav class="header-content__nav flex">
+                <ul>
+                    <li>제품/소모품</li>
+                    <li>고객지원</li>
+                    <li>구독</li>
+                    <li>이벤트/멤버십</li>
+                    <li>스토리</li>
+                    <li>베스트샵</li>
+                </ul>
+
+                <ul class="header-content__nav1 flex">
+                    <li>LG SIGNATURE</li>
+                    <li>LG Objet</li>
+                    <li>LG ThinQ</li>
+                    <li>Let's gram</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="slide">
+                <div class="info">
+                    <img src="images/main_image.png" alt="main_image">
+                </div>
+            </section>
+            <section class="menu_list">
+                <div class="menu_list__content">
+                    <div class="menu_list__content__list flex">
+                        <div>
+                            <img src="images/clone_image1.svg" alt="menu_list1">
+                            <p>혜택 모음</p>
+                        </div>
+                        <div>
+                            <img src="images/clone_image2.svg" alt="menu_list2">
+                            <p>다목품 확인</p>
+                        </div>
+                        <div>
+                            <img src="images/clone_image3.svg" alt="menu_list3">
+                            <p>구독</p>
+                        </div>
+                        <div>
+                            <img src="images/clone_image4.svg" alt="menu_list4">
+                            <p>소모품</p>
+                        </div>
+                        <div>
+                            <img src="images/clone_image5.svg" alt="menu_list5">
+                            <p>엘라쇼</p>
+                        </div>
+                        <div>
+                            <img src="images/clone_image6.svg" alt="menu_list6">
+                            <p>베스트 랭킹</p>
+                        </div>
+                        <div>
+                            <img src="images/clone_image7.svg" alt="menu_list7">
+                            <p>기획전</p>
+                        </div>
+                        <div>
+                            <img src="images/clone_image8.svg" alt="menu_list8">
+                            <p>이벤트</p>
+                        </div>
+                        <div>
+                            <img src="images/clone_image9.svg" alt="menu_list9">
+                            <p>스스로 해결</p>
+                        </div>
+                        <div>
+                            <img src="images/clone_image10.svg" alt="menu_list10">
+                            <p>고객지원</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="main_banner">
+                    <p>12월 13일 (수) 오후 8시 하이드로타워 라이브</p>
+                    <p>엘라쇼 보러가기 ></p>
+                    <img src="images/main-home_basic.png" alt="main-home_basic">
+                </div>
+                <div class="main_banner_two">
+                    <p>온라인 단독 모델 빌트인 정수기 특가 혜택</p>
+                    <p>구독하러 가기 ></p>
+                    <img src="images/banner_image2.png" alt="main-home_basic">
+                </div>
+            </section>
+            <section class="item_list">
+                <h1>지금 주목해야 할 제품</h1>
+                <h4>놓치기 아쉬운 특별한 가격</h4>
+                <div class="item_container flex">
+                    <article class="item_list_menu">
+                        <div class="thumb">
+                            <img src="images/item_image01.png" alt="와인냉장고">
+                        </div>
+                        <div class="item_content">
+                            <div class="item_content__title">LG 디오스 오브제컬렉션 와인셀러<br> 8병</div>
+                            <div class="item_content__address">W0082GLE</div>
+                            <div class="item_content__price">350,000원</div>
+                        </div>
+                    </article>
+                    <article class="item_list_menu">
+                        <div class="thumb">
+                            <img src="images/item_image02.png" alt="세탁기">
+                        </div>
+                        <div class="item_content">
+                            <div class="item_content__title">LG 디오스 오브제컬렉션 + 건조기<br> + 스테킹키...</div>
+                            <div class="item_content__address">W0082GLE</div>
+                            <div class="item_content__price">2,690,000원</div>
+                        </div>
+                    </article>
+                    <article class="item_list_menu">
+                        <div class="thumb">
+                            <img src="images/item_image03.png" alt="냉장고">
+                        </div>
+                        <div class="item_content ">
+                            <div class="item_content__title">LG 디오스 오브제컬렉션 식기세척기<br> + LG 디오스 오브제 컬렉션 인덕션...</div>
+                            <div class="item_content__address">W0082GLE</div>
+                            <div class="item_content__price">2,584,000원</div>
+                        </div>
+                    </article>
+                    <article class="item_list_menu">
+                        <div class="thumb">
+                            <img src="images/item_image04.png" alt="가습기">
+                        </div>
+                        <div class="item_content">
+                            <div class="item_content__title">LG 퓨리케어 자연기화 가습기</div>
+                            <div class="item_content__address">W0082GLE</div>
+                            <div class="item_content__price">349,000원</div>
+                        </div>
+                    </article>
+                </div>
+                <div class="line">
+                    <div class="item_line02"></div>
+                    <div class="item_line01"></div>
+                </div>
+            </section>
+            <section></section>
+        </main>
+    </div>
+</body>
+
+</html>
