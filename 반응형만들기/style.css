@@ -1,0 +1,62 @@
+body {
+    width: 100%;
+    background-color: red;
+
+}
+
+p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: auto;
+}
+
+@media screen and (max-width: 1600px) {
+    body {
+        background-color: blue;
+    }
+
+    p {
+        font-size: 0px;
+    }
+
+    p::after {
+        font-size: 16px;
+        content: "혼자 공부하는거 같아요";
+    }
+
+
+}
+
+@media screen and (max-width: 1300px) {
+    body {
+        background-color: green;
+    }
+
+    p::after {
+        font-size: 16px;
+        content: "다음엔 카페나 신사역 가야겠어요";
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: yellow;
+    }
+
+    p::after {
+        font-size: 16px;
+        content: "그럼 여기까지만 할게요";
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        background-color: brown;
+    }
+
+    p::after {
+        font-size: 16px;
+        content: "바이바이~";
+    }
+}
