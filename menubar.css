@@ -1,0 +1,60 @@
+#header {
+    background-color: #6A84B7;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+label,
+#toggle {
+    display: none;
+}
+
+#nav {
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+#nav li {
+    display: inline;
+}
+
+@media screen and (max-width: 768px) {
+    #nav {
+        display: none;
+    }
+
+    #toggle:checked+#nav {
+        display: block;
+    }
+
+    #nav li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #ccc;
+        padding: 4px;
+
+    }
+
+    label {
+        display: block;
+        text-align: center;
+        background: url(image/09image.jpg);
+        background-repeat: no-repeat;
+        background-position: 97% 10px;
+        background-size: 24px 19px;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 4px 3%;
+    }
+
+
+
+
+
+}
