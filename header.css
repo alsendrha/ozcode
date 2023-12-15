@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    width: 100%;
+    max-width: 75%;
+    padding-top: 24px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .check_icon {
+        display: none;
+    }
+
+    .header_nav_item {
+        display: inline-block;
+        padding: 0 1em;
+    }
+
+    .header_icon {
+        display: inline-block;
+        padding: 0 0.5em;
+    }
+}
