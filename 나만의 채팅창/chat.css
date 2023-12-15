@@ -19,8 +19,8 @@ body {
 
 /* 스크린 크기 조정 */
 .chat-screen {
-    height: calc(100% - 120px);
-    overflow: scroll;
+    height: calc(100% - 200px);
+    overflow: auto;
 }
 
 /* 유저 정보 표시되는 부분 */
