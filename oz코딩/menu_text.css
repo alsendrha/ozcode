@@ -1,0 +1,82 @@
+/* =========== main title 부분 =========== */
+.section {
+    padding: 64px 16px;
+    text-align: center;
+}
+
+.section_first_text {
+    font-size: 26px;
+    color: red;
+}
+
+.section_title {
+    font-size: 72px;
+    font-weight: bold;
+    color: black;
+}
+
+/* =========== main card 부분 =========== */
+#main_card {
+    background-color: rgba(201, 201, 201, 0.404);
+    padding-right: 16px;
+}
+
+.main_card {
+    display: inline-flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.card_one {
+    padding: 58px;
+    margin: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgba(77, 221, 67, 0.644);
+    border-radius: 40px;
+}
+
+.card_one a {
+    text-decoration: none;
+}
+
+.card_one p {
+    color: dimgray;
+}
+
+.card_title {
+    margin-top: 0.6em;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+@media screen and (max-width:768px) {
+    .main_card {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:769px) {
+
+    .card_one {
+        width: 320px;
+        cursor: pointer;
+        transition: all 350ms;
+    }
+
+    .main_card:hover .card_one:not(:hover) {
+        transform: scale(0.9);
+    }
+
+    .main_card:hover .card_one:not(:hover)::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(5px);
+    }
+}
