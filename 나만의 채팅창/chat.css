@@ -1,13 +1,10 @@
 /* 전체적인 세팅부터 */
 * {
     box-sizing: border-box;
-    font-family: 'Nanum Gothic Coding', monospace;
-    font-family: 'Nanum Pen Script', cursive;
 }
 
 html {
     height: 100%;
-
 }
 
 body {
@@ -23,6 +20,7 @@ body {
 /* 스크린 크기 조정 */
 .chat-screen {
     height: calc(100% - 120px);
+    overflow: scroll;
 }
 
 /* 유저 정보 표시되는 부분 */
@@ -58,6 +56,7 @@ body {
 .chat-form {
     height: 120px;
     background-color: white;
+
 }
 
 .chat-form__field {

@@ -1,15 +1,28 @@
 .header {
     display: flex;
     width: 100%;
-    max-width: 75%;
-    padding-top: 24px;
+    max-width: 80%;
+    padding-top: 20px;
     margin: 0 auto;
     justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("images/kakaodev_logo_black.png");
+    width: 72px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 
 
-@media screen and (min-width: 768px) {
+
+
+
+
+@media screen and (min-width: 1023px) {
     .check_icon {
         display: none;
     }
@@ -22,5 +35,15 @@
     .header_icon {
         display: inline-block;
         padding: 0 0.5em;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header_nav {
+        display: none;
+    }
+
+    .haeder_icon_menu {
+        display: none;
     }
 }
