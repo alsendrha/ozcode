@@ -1,0 +1,159 @@
+.container_footer {
+    margin-top: 240px;
+    border-top: 1px solid #ebebeb;
+}
+
+.footer_main {
+    max-width: 1240px;
+    padding-top: 63px;
+    margin: 0 auto;
+    padding: 37px 0 48px;
+}
+
+
+.footer_section_one_title {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+.wrap_service {
+    width: 113px;
+    padding-right: 25px;
+    float: left;
+}
+
+.footer_main_title {
+    display: block;
+    font-weight: bold;
+}
+
+.footer_main_title a {
+    font-weight: 700;
+    color: #000;
+    line-height: 20px;
+    letter-spacing: -.2px;
+}
+
+.footer_list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+}
+
+.footer_list_item {
+    margin-top: 12px;
+}
+
+.footer_list_item a {
+    line-height: 20px;
+    letter-spacing: -.2px;
+    color: #888;
+    text-decoration: none;
+    text-align: start;
+}
+
+.footer_section_two {
+    margin-top: 320px;
+}
+
+.screen_out {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    line-height: 0;
+    text-indent: -9999px;
+
+}
+
+
+
+.footer_last_menu {
+    margin-top: 6px;
+    float: left;
+    position: relative;
+    line-height: 18px;
+    margin-left: 24px;
+}
+
+.footer_last_text {
+    font-size: 12px;
+    letter-spacing: -.2px;
+    color: #888;
+}
+
+.footer_web {
+    width: 298px;
+    float: right;
+    position: relative;
+}
+
+.footer_web_title {
+    font-weight: bold;
+}
+
+.footer_web_title a {
+    display: block;
+    padding: 10px 20px 12px;
+    background-color: #eee;
+    border-radius: 24px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    line-height: 18px;
+    letter-spacing: - .2px;
+}
+
+.copy {
+    display: block;
+    font-size: 12px;
+    color: #888;
+    clear: both;
+    padding: 12px 0;
+}
+
+@media screen and (min-width:1440px) {
+    .footer_main {
+        max-width: 1350px;
+        margin: 0 auto;
+    }
+
+    .wrap_service {
+        margin-left: 50px;
+    }
+
+    .footer_last_item {
+        max-width: 1350px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .footer_main {
+        max-width: 980px;
+        margin: 0 auto;
+    }
+
+    .footer_last_item {
+        width: 590px;
+        margin-top: -6px;
+        float: left;
+        margin-left: -24px;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .footer_main {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .footer_last_item {
+        max-width: 600px;
+    }
+}

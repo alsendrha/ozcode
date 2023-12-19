@@ -1,0 +1,97 @@
+.header {
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 80%;
+    padding-top: 20px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("images/kakaodev_logo_black.png");
+    width: 72px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 24px;
+    align-items: center;
+}
+
+.header_nav {
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 1050px) {
+    .check_icon {
+        display: none;
+    }
+
+    .check_icon_two {
+        display: none;
+    }
+
+    .header_nav_item {
+        display: inline-block;
+        padding: 0 1em;
+        margin: 0 0.8em;
+    }
+
+    .header_icon {
+        display: inline-block;
+        padding: 0 0.5em;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .header_nav {
+        display: none;
+
+    }
+
+    .header_icon_menu {
+        display: none;
+    }
+
+    .check_icon {
+        all: unset;
+        display: inline-block;
+        position: absolute;
+        right: 60px;
+        width: 62px;
+        height: 62px;
+        background-image: url("images/1093183.svg");
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+
+    .check_icon_two {
+        all: unset;
+        position: absolute;
+        right: 0;
+        display: inline-block;
+        width: 62px;
+        height: 62px;
+        background-image: url("images/1681722.svg");
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+
+    .check_icon_two:checked+.header_nav {
+        display: block;
+        position: absolute;
+        text-align: end;
+        width: 100%;
+        top: 70px;
+        list-style: none;
+    }
+}
